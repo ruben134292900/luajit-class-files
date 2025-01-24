@@ -17,7 +17,7 @@ function Class.new()
     ---@class Class
 	local class = setmetatable({}, Class)
 
-	return Class
+	return class
 end
 
 return Class
