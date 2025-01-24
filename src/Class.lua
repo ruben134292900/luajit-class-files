@@ -1,0 +1,23 @@
+---@class Class
+local Class = {}
+Class.__index = Class
+
+-- Constants
+
+-- Variables
+
+-- Functions
+
+-- Class Constants
+
+-- Class Functions
+
+---@type fun(): Class
+function Class.new()
+    ---@class Class
+	local class = setmetatable({}, Class)
+
+	return Class
+end
+
+return Class
