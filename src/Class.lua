@@ -1,5 +1,6 @@
 ---@class Class
 local Class = {}
+---@private
 Class.__index = Class
 
 -- Constants

@@ -2,6 +2,7 @@ local Class = require("src.Class")
 
 ---@class ExtendingClass: Class
 local ExtendingClass = {}
+---@private
 ExtendingClass.__index = ExtendingClass
 setmetatable(ExtendingClass, Class)
 
