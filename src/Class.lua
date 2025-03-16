@@ -1,6 +1,6 @@
 ---@class Class
 local Class = {}
----@private
+---@protected
 Class.__index = Class
 
 -- Constants
