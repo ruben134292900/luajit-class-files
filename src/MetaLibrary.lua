@@ -1,7 +1,6 @@
 ---@class MetaLibrary
----@field Hello "Hello"
 local Library = {}
----@type metatable | table
+---@class MetaLibrary
 local LibraryMeta = {}
 
 -- Constants
